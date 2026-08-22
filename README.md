@@ -1,15 +1,15 @@
-<!-- ==================== HEADER BANNER (BLACK / TERMINAL) ==================== -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:0d1117,100:1f2937&height=230&section=header&text=methembe.mkz&fontSize=54&fontColor=f0f6fc&fontAlignY=34&desc=%3E%20software%20developer%20%C2%B7%20ui%2Fux%20designer%20%C2%B7%20digital%20product%20builder&descSize=15&descColor=39d353&descAlignY=56&animation=fadeIn" width="100%" alt="terminal banner"/>
+<!-- ==================== HEADER BANNER (ANIMATED TERMINAL SVG) ==================== -->
+<img src="https://raw.githubusercontent.com/Methembe11/Methembe11/main/assets/banner.svg?v=1" width="100%" alt="methembe.mkz terminal banner"/>
 
 <!-- ==================== TYPING ANIMATION (TERMINAL GREEN) ==================== -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=39D353&center=true&vCenter=true&random=false&width=720&lines=%24+whoami;software+developer+%3A%3A+ui%2Fux+designer;%24+npm+run+build-the-future;idea+%3D%3E+design+%3D%3E+deploy;based+in+victoria+falls%2C+zimbabwe" alt="typing"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1200&color=39D353&center=true&vCenter=true&random=false&width=860&height=50&lines=%24+whoami;software+developer+%3A%3A+ui%2Fux+designer;%24+npm+run+build-the-future;idea+%3D%3E+design+%3D%3E+deploy;based+in+victoria+falls%2C+zimbabwe" alt="typing"/>
   </a>
 </p>
 
 <!-- ==================== ABOUT ME (TERMINAL OUTPUT) ==================== -->
-## `$ whoami`
+# `$ whoami`
 
 ```bash
 $ whoami
@@ -32,7 +32,7 @@ code + ui/ux + digital marketing = products people actually use
 <br/>
 
 <!-- ==================== TECH STACK ==================== -->
-## `$ ls ./stack`
+# `$ ls ./stack`
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -47,7 +47,7 @@ code + ui/ux + digital marketing = products people actually use
 <br/>
 
 <!-- ==================== FEATURED PROJECTS ==================== -->
-## `$ ls featured-projects/`
+# `$ ls featured-projects/`
 
 | Project | What it is | Live |
 |---|---|---|
@@ -63,7 +63,7 @@ See the full collection on my [portfolio website](https://methembe.dev).
 <br/>
 
 <!-- ==================== GITHUB STATS ==================== -->
-## `$ git log --stats`
+# `$ git log --stats`
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Methembe11&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=39d353&text_color=c9d1d9&icon_color=39d353&v=2" height="165" alt="GitHub stats"/>
@@ -77,7 +77,7 @@ See the full collection on my [portfolio website](https://methembe.dev).
 <br/>
 
 <!-- ==================== TROPHIES ==================== -->
-## `$ achievements --list`
+# `$ achievements --list`
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Methembe11&theme=discord&no-frame=true&row=1&column=7&margin-w=8&no-bg=true&v=2" alt="Trophies"/>
@@ -86,7 +86,7 @@ See the full collection on my [portfolio website](https://methembe.dev).
 <br/>
 
 <!-- ==================== SNAKE ANIMATION ==================== -->
-## `./feed_the_snake.sh`
+# `./feed_the_snake.sh`
 
 <p align="center">
   <picture>
@@ -101,7 +101,7 @@ See the full collection on my [portfolio website](https://methembe.dev).
 <br/>
 
 <!-- ==================== CONNECT WITH ME ==================== -->
-## `$ ping methembe`
+# `$ ping methembe`
 
 <p align="center">
   <a href="https://methembe.dev"><img src="https://img.shields.io/badge/portfolio-methembe.dev-0d1117?style=for-the-badge&logo=aboutdotme&logoColor=39d353&labelColor=000000" alt="Portfolio"/></a>

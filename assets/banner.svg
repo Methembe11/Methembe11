@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#000000"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#151b23" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="sweep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#39d353" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#39d353" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#39d353" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="frameClip">
+      <rect x="8" y="8" width="1184" height="294" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <!-- terminal window -->
+  <rect x="8" y="8" width="1184" height="294" rx="14" fill="url(#bgGrad)" stroke="#21262d" stroke-width="2"/>
+
+  <g clip-path="url(#frameClip)">
+    <!-- background grid -->
+    <rect x="8" y="8" width="1184" height="294" fill="url(#grid)"/>
+
+    <!-- scanning highlight -->
+    <rect x="8" y="-90" width="1184" height="80" fill="url(#sweep)">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="0 400" dur="5s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- title bar -->
+    <circle cx="48" cy="42" r="7" fill="#ff5f57"/>
+    <circle cx="76" cy="42" r="7" fill="#febc2e"/>
+    <circle cx="104" cy="42" r="7" fill="#28c840"/>
+    <text x="600" y="47" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#8b949e" text-anchor="middle">~/methembe.mkz — zsh</text>
+    <line x1="8" y1="66" x2="1192" y2="66" stroke="#21262d" stroke-width="2"/>
+
+    <!-- name with glow -->
+    <g filter="url(#glow)">
+      <text x="600" y="190" font-family="'Fira Code', Consolas, 'Courier New', monospace" font-size="86" font-weight="bold" fill="#f0f6fc" text-anchor="middle">methembe.mkz</text>
+    </g>
+    <!-- blinking cursor -->
+    <text x="934" y="190" font-family="'Fira Code', Consolas, 'Courier New', monospace" font-size="86" font-weight="bold" fill="#39d353" text-anchor="start">_
+      <animate attributeName="opacity" values="1;0" dur="1.1s" calcMode="discrete" repeatCount="indefinite"/>
+    </text>
+
+    <!-- command line -->
+    <text x="600" y="240" font-family="'Fira Code', Consolas, 'Courier New', monospace" font-size="24" text-anchor="middle"><tspan fill="#39d353">$</tspan><tspan fill="#e6edf3"> software developer · ui/ux designer · product builder</tspan></text>
+
+    <!-- availability status -->
+    <circle cx="452" cy="272" r="5" fill="#39d353">
+      <animate attributeName="opacity" values="1;0.25;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="468" y="277" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#8b949e" text-anchor="start">open to internships · junior roles · collaborations</text>
+  </g>
+</svg>
