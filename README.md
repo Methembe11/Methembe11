@@ -58,7 +58,7 @@ code + ui/ux + digital marketing = products people actually use
 | [Flyta Vertex](https://flyta-vertex.vercel.app) | Airport transfers booking platform | [Demo](https://flyta-vertex.vercel.app) |
 | [Netflix Clone](https://netflix-clone-m.vercel.app) | Streaming clone powered by the TMDB API with browsing and categorization | [Demo](https://netflix-clone-m.vercel.app) |
 
-See the full collection on my [portfolio website](https://methembe.dev).
+See the full collection on my [portfolio website](https://methembe-portfolio.vercel.app).
 
 <br/>
 
@@ -104,7 +104,7 @@ See the full collection on my [portfolio website](https://methembe.dev).
 # `$ ping methembe`
 
 <p align="center">
-  <a href="https://methembe.dev"><img src="https://img.shields.io/badge/portfolio-methembe.dev-0d1117?style=for-the-badge&logo=aboutdotme&logoColor=39d353&labelColor=000000" alt="Portfolio"/></a>
+  <a href="https://methembe-portfolio.vercel.app"><img src="https://img.shields.io/badge/portfolio-methembe--portfolio.vercel.app-0d1117?style=for-the-badge&logo=aboutdotme&logoColor=39d353&labelColor=000000" alt="Portfolio"/></a>
   <a href="https://www.linkedin.com/in/ayanda-mkhize-655a5942a/"><img src="https://img.shields.io/badge/linkedin-connect-0d1117?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn"/></a>
   <a href="mailto:methembemkhize89@gmail.com"><img src="https://img.shields.io/badge/email-hello@methembe-0d1117?style=for-the-badge&logo=gmail&logoColor=D14836&labelColor=000000" alt="Email"/></a>
   <a href="https://github.com/Methembe11"><img src="https://img.shields.io/badge/github-Methembe11-0d1117?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" alt="GitHub"/></a>
